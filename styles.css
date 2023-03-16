@@ -19,12 +19,12 @@ h1{
 }
 
 nav{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     font-size: 200%;
     color: cadetblue;
     pointer-events: none;
     z-index: 30;
-    list-style-type: none;
+    list-style-type: none; */
     
 }
