@@ -41,7 +41,7 @@ nav{
 }
 
 #link1{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #link2{
@@ -49,11 +49,15 @@ nav{
 }
 
 #link3{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #link4{
     font-size: 30px;
+}
+
+#link5{
+    font-size: 40px;
 }
 
 a:link{
