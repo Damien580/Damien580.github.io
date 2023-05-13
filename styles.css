@@ -17,8 +17,8 @@ header{
 }
 
 main{
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(194, 242, 250);
     text-align: center;
 }
 
@@ -44,6 +44,10 @@ nav{
     display: flex;
     margin-left: 300px;
     margin-right: 300px;
+}
+.text2{
+    font-size: xx-large;
+    padding: 10px;
 }
 
 #link1{
@@ -80,6 +84,7 @@ nav{
 #projects{
     min-height: 25vh;
     font-size: x-large;
+    margin-top: 75px;
     
 }
 
@@ -112,11 +117,11 @@ nav{
 .project-links{
     color: rgb(250, 94, 94);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .project-links:visited{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(250, 94, 94);
 }
@@ -124,13 +129,11 @@ nav{
 .contact-links{
 color: rgb(255, 247, 0);
 -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .contact-links:visited{
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 247, 0);
 }
-
-/* =================================================== */
