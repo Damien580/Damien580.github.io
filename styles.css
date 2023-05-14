@@ -7,7 +7,7 @@ header{
     display: flex;
     height: 200px;
     width: 100vw;
-    background-image: url('pics/banner-1711944_960_720.jpg');
+    background-image: url('pics/pexels-philippe-donn-1169754.jpeg');
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -103,7 +103,7 @@ nav{
 }
 
 .nav-links{
-    color: rgb(2, 123, 251);
+    color: rgb(135, 193, 255);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
@@ -111,7 +111,7 @@ nav{
 .nav-links:visited{
     color: rgb(0, 0, 0);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(2, 123, 251);
+    -webkit-text-stroke-color: rgb(135, 193, 255);
 }
 
 .project-links{
