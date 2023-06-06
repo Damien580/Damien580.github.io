@@ -11,7 +11,7 @@ header{
     width: 100%;
     background-image: url('pics/pexels-philippe-donn-1169754.jpeg');
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -21,7 +21,6 @@ header{
 
 #spacer{
   height: 37%;
-  
 }
 
 @media (max-width: 768px) {
@@ -38,12 +37,10 @@ main{
 
 .name{
   display: inline-block;
-  font-size: 8vh;
+  font-size: 6vh;
   margin: 5%;
   font-family:'Times New Roman', Times, serif;
-  color: rgb(137, 251, 126);
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
@@ -198,33 +195,27 @@ nav{
 
 
 .nav-links{
-    color: rgb(137, 251, 126);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
 }
 
 .nav-links:visited{
-    color: rgb(137, 251, 126);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
 }
 
 .project-links{
-    color: rgb(207, 94, 94);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .project-links:visited{
     color: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(207, 94, 94);
 }
 
 .contact-links{
-color: rgb(207, 94, 94);
--webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
 }
 
 .contact-links:visited{
