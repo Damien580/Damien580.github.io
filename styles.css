@@ -3,17 +3,25 @@
     padding: 0px;
 }
 
+
+
 header{
-    display: flex;
-    height: 200px;
-    width: 100vw;
+    display: inline-flex;
+    height: 20vh;
+    width: 100%;
     background-image: url('pics/pexels-philippe-donn-1169754.jpeg');
     align-items: center;
     justify-content: center;
     position: fixed;
     top: 0px;
+    left: 0px;
     background-size: 100%;
-    
+    z-index: 2;
+}
+@media (max-width: 768px) {
+  header {
+    height: 15vh;
+  }
 }
 
 main{
@@ -22,8 +30,8 @@ main{
     text-align: center;
 }
 
-h1{
-    font-size: 125px;
+.name{
+    font-size: 10vh;
     margin: 5%;
     font-family:'Times New Roman', Times, serif;
     color: rgb(137, 251, 126);
@@ -32,11 +40,6 @@ h1{
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-}
 
 body {
   height: 100vh;
@@ -116,7 +119,7 @@ span:nth-child(10) {
 nav{
     display: flex;
     flex-direction: column;
-    font-size: 275%;
+    font-size: 4vh;
     font-weight: 600;
     font-family:'Times New Roman', Times, serif;
     
@@ -157,6 +160,12 @@ nav{
     font-size: x-large;
 }
 
+@media (max-width: 768px) {
+  #about {
+    margin-top: 180px; /* Adjust this value as needed to ensure the about section is visible */
+  }
+}
+
 #skills{
     min-height: 25vh;
     font-size: x-large;
@@ -181,23 +190,24 @@ nav{
 }
 
 #spacer{
-    height: 900px;
+    height: 37%;
+
 }
 
 .nav-links{
-    color: rgb(135, 193, 255);
+    color: rgb(137, 251, 126);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .nav-links:visited{
-    color: rgb(0, 0, 0);
+    color: rgb(137, 251, 126);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(135, 193, 255);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .project-links{
-    color: rgb(135, 193, 255);
+    color: rgb(207, 94, 94);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
@@ -205,11 +215,11 @@ nav{
 .project-links:visited{
     color: rgb(0, 0, 0);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(135, 193, 255);
+    -webkit-text-stroke-color: rgb(207, 94, 94);
 }
 
 .contact-links{
-color: rgb(137, 251, 126);
+color: rgb(207, 94, 94);
 -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
@@ -217,5 +227,5 @@ color: rgb(137, 251, 126);
 .contact-links:visited{
 color: rgb(0, 0, 0);
 -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(137, 251, 126);
+    -webkit-text-stroke-color: rgb(207, 94, 94);
 }
