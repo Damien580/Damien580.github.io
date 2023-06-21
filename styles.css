@@ -135,52 +135,52 @@ nav{
     margin-right: 15%;
 }
 .text2{
-    font-size: xx-large;
+    font-size: x-large;
     padding: 10px;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 #link1{
-    font-size: 50px;
+    font-size: 3vh;
 }
 
 #link2{
-    font-size: 50px;
+    font-size: 3vh;
 }
 
 #link3{
-    font-size: 50px;
+    font-size: 3vh;
 }
 
 #link4{
-    font-size: 50px;
+    font-size: 3vh;
 }
 
 #link5{
-    font-size: 50px;
+    font-size: 3vh;
 }
 
 #about{
     min-height: 25vh;
-    font-size: x-large;
+    font-size: 2vh;
 }
 
 @media (max-width: 768px) {
   #about {
-    margin-top: 180px; /* Adjust this value as needed to ensure the about section is visible */
+    margin-top: 180px;
   }
 }
 
 #skills{
     min-height: 25vh;
-    font-size: x-large;
+    font-size: 2vh;
     margin-top: 75px;
 }
 
 #projects{
     min-height: 25vh;
-    font-size: x-large;
+    font-size: 2vh;
     margin-top: 75px;
     
 }
@@ -188,7 +188,7 @@ nav{
 #contact{
     min-height: 25vh;
     margin-top: 50px;
-    font-size: x-large;
+    font-size: x-2vh;
 }
 
 .scrollTarget:target{
